@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from '@styles/Order.module.scss';
 
 const Order = () => {
@@ -12,6 +13,6 @@ const Order = () => {
 			<Image src="./icons/flechita.svg" alt="arrow" />
 		</div>
 	);
-}
+};
 
 export default Order;

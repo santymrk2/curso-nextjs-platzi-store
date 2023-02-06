@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '@styles/Login.scss';
-import logo from '@logos/logo_yard_sale.svg'
+import logo from '@logos/logo_yard_sale.svg';
 
 const Login = () => {
 	const form = useRef(null);
@@ -13,7 +13,7 @@ const Login = () => {
 			password: formData.get('password')
 		}
 		console.log(data);
-	}
+	};
 
 	return (
 		<div className="Login">
@@ -39,6 +39,6 @@ const Login = () => {
 			</div>
 		</div >
 	);
-}
+};
 
 export default Login;
